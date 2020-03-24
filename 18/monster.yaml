@@ -1,0 +1,8 @@
+name: Cave spider
+hp:
+  - 2
+  - 6
+ac: 16
+attacks:
+  - BITE
+  - HURT
