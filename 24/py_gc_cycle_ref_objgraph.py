@@ -1,6 +1,4 @@
-
-import objgraph as objgraph
-
+import objgraph
 
 
 def func():
