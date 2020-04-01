@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Positions for {{ asset }}</title>
+</head>
+<body>
+<h1>Positions for {{ asset }}</h1>
+<table>
+    <tr>
+        <th>Time</th>
+        <th>Amount</th>
+    </tr>
+
+    {% for position in positions %}
+    <tr>
+        <th>{{ position.timestamp }}</th>
+        <th>{{ position.amount }}</th>
+    </tr>{% endfor %}</table>
+</body>
+</html>
